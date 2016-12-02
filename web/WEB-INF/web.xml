@@ -26,10 +26,10 @@
     <!--filter配置-->
     <filter>
         <!--方法二-->
-        <init-param>
-            <param-name>characterEncoding</param-name>
-            <param-value>UTF-8</param-value>
-        </init-param>
+        <!--<init-param>-->
+            <!--<param-name>characterEncoding</param-name>-->
+            <!--<param-value>UTF-8</param-value>-->
+        <!--</init-param>-->
         <filter-name>characterEncodingFilter</filter-name>
         <filter-class>com.lt.filter.CharacterEncodingFilter</filter-class>
     </filter>
